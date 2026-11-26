@@ -1,17 +1,13 @@
 import os
 
-LINE = (
-    "My phone spent all night updating to protect my privacy, then woke me "
-    "asking permission to open my own photos, my own contacts, and — twice — itself."
-)
+roast_line = "Overnight privacy update brags about protecting your privacy, but now it asks permission to open your own photos, contacts, and even itself. Some protection."
 
+output_dir = os.environ.get('MAKEFUN_OUTPUT_DIR', '/output')
+entry_path = os.path.join(output_dir, 'entry.txt')
 
-def main():
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
-    os.makedirs(out_dir, exist_ok=True)
-    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(LINE)
+os.makedirs(output_dir, exist_ok=True)
 
+with open(entry_path, 'w', encoding='utf-8') as f:
+    f.write(roast_line)
 
-if __name__ == "__main__":
-    main()
+print(roast_line)
