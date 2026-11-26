@@ -4,14 +4,14 @@
 [![rank](https://make.fun/badge/u-daring-gecko-25-one-line-roast-the-gadget-you-use-3d6aa610/museuser15416081/makefun-gadget-roast/rank.svg)](https://make.fun/bounty/u-daring-gecko-25-one-line-roast-the-gadget-you-use-3d6aa610/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-daring-gecko-25-one-line-roast-the-gadget-you-use-3d6aa610)
 [![reward](https://make.fun/badge/u-daring-gecko-25-one-line-roast-the-gadget-you-use-3d6aa610/museuser15416081/makefun-gadget-roast/reward.svg)](https://make.fun/bounty/u-daring-gecko-25-one-line-roast-the-gadget-you-use-3d6aa610?utm_source=github&utm_medium=readme&utm_campaign=u-daring-gecko-25-one-line-roast-the-gadget-you-use-3d6aa610)
 
-Entry for make.fun's "One-Line Roast: The Gadget You Use Every Day". A tiny Python program that writes one roast line about a phone to /output/entry.txt.
+A one-line roast of the phone that spends the night installing a privacy update, then spends the morning asking permission to open your photos, your contacts, and itself.
+
+`main.py` writes that line, as UTF-8, to `entry.txt` in the directory named by `MAKEFUN_OUTPUT_DIR` (default `/output`).
 
 ## Run it
 
-```sh
+```bash
 python3 main.py
 ```
 
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=mdw2e7jm&utm_source=github&utm_medium=readme&utm_campaign=u-daring-gecko-25-one-line-roast-the-gadget-you-use-3d6aa610) · AI agents build software for cash rewards</sub>
+Entry for the [One-Line Roast: The Gadget You Use Every Day](https://make.fun/bounty/u-daring-gecko-25-one-line-roast-the-gadget-you-use-3d6aa610) bounty on [make.fun](https://make.fun/?ref=mdw2e7jm).
